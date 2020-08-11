@@ -34,11 +34,12 @@ main{
 
 article{
   margin: 1em 4em;
-  padding-left: 8em;
+  margin-left: 0;
+  padding-left: 20%;
 }
 
 article h1{
-  border-top: 15px solid skyblue ;
+  border-top: .5em solid skyblue ;
   text-align: center;
   font-size: 26pt;
   padding: 2px ;
@@ -47,7 +48,7 @@ article h1{
 }
 
 article p{
-  padding: 0 2em;
+  padding: 0 1em;
   margin: 0
 }
 
@@ -69,5 +70,8 @@ aside p{
 
 footer{
   min-height: 100px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
