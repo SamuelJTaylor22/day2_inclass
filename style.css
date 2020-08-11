@@ -53,7 +53,7 @@ article p{
 }
 
 aside{
-  margin-top: 2em;
+  margin-top: 8em;
   
 }
 
@@ -71,7 +71,7 @@ aside p{
 footer{
   min-height: 91px;
   width: 100%;
-  position: relative;
+  position: absolute;
   bottom: 0;
 }
 
